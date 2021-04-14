@@ -1,0 +1,81 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "spectral_blade",
+	"textures": {
+		"0": "hollowcrypt:item/spectral_blade",
+		"particle": "hollowcrypt:item/spectral_blade"
+	},
+	"elements": [
+		{
+			"name": "HandleBottom",
+			"from": [7.25, 1.5, 7.25],
+			"to": [8.75, 3, 8.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.15, 8.1]},
+			"faces": {
+				"north": {"uv": [10, 2, 12, 4], "texture": "#0"},
+				"east": {"uv": [10, 4, 12, 6], "texture": "#0"},
+				"south": {"uv": [10, 6, 12, 8], "texture": "#0"},
+				"west": {"uv": [10, 8, 12, 10], "texture": "#0"},
+				"up": {"uv": [12, 12, 10, 10], "texture": "#0"},
+				"down": {"uv": [14, 2, 12, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hilt",
+			"from": [7, 9, 5],
+			"to": [9, 10, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.15, 8.1]},
+			"faces": {
+				"north": {"uv": [12, 4, 14, 5], "texture": "#0"},
+				"east": {"uv": [8, 0, 14, 1], "texture": "#0"},
+				"south": {"uv": [12, 5, 14, 6], "texture": "#0"},
+				"west": {"uv": [8, 1, 14, 2], "texture": "#0"},
+				"up": {"uv": [8, 6, 6, 0], "texture": "#0"},
+				"down": {"uv": [8, 6, 6, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "BladeMain",
+			"from": [7.5, 10, 7],
+			"to": [8.5, 25, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.15, 8.1]},
+			"faces": {
+				"north": {"uv": [4, 0, 5, 15], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 15], "texture": "#0"},
+				"south": {"uv": [5, 0, 6, 15], "texture": "#0"},
+				"west": {"uv": [2, 0, 4, 15], "texture": "#0"},
+				"up": {"uv": [7, 14, 6, 12], "texture": "#0"},
+				"down": {"uv": [13, 6, 12, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [7.5, 3, 7.5],
+			"to": [8.5, 9, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.15, 8.1]},
+			"faces": {
+				"north": {"uv": [8, 2, 9, 8], "texture": "#0"},
+				"east": {"uv": [8, 8, 9, 14], "texture": "#0"},
+				"south": {"uv": [9, 2, 10, 8], "texture": "#0"},
+				"west": {"uv": [9, 8, 10, 14], "texture": "#0"},
+				"up": {"uv": [13, 12, 12, 11], "texture": "#0"},
+				"down": {"uv": [13, 12, 12, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "BladeTop",
+			"from": [7.5, 25, 8],
+			"to": [8.5, 26, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.15, 8.1]},
+			"faces": {
+				"north": {"uv": [7, 12, 8, 13], "texture": "#0"},
+				"east": {"uv": [12, 8, 13, 9], "texture": "#0"},
+				"south": {"uv": [12, 9, 13, 10], "texture": "#0"},
+				"west": {"uv": [10, 12, 11, 13], "texture": "#0"},
+				"up": {"uv": [13, 11, 12, 10], "texture": "#0"},
+				"down": {"uv": [12, 12, 11, 13], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

@@ -1,0 +1,24 @@
+{
+  "type": "bewitchment:ritual_recipe",
+  "ingredients": [
+    {
+      "item": "bewitchment:taglock"
+    },
+    {
+      "item": "bewitchment:grim_elixir"
+    },
+    {
+      "item": "bewitchment:ectoplasm"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+	{
+	  "item": "minecraft:phantom_membrane"
+	}
+  ],
+  "inner": "eldritch",
+  "outer": "eldritch",
+  "ritual_function": "hollowcrypt:thrall",
+  "cost": 600
+}
